@@ -10,6 +10,7 @@ digital projects.
 
 ---
 <img width="2000" height="1403" alt="screenshot-desktop" src="https://github.com/user-attachments/assets/42eaf76a-7c0b-48f0-b96d-4390f8447d41" />
+
 ## Why MOCO?
 
 Brand assets don't have to be static.
@@ -32,28 +33,17 @@ The client gets the studio, not just the output.
 
 The Blob shape is drawn rather than picked. *Complexity* sets how many bulges the
 silhouette can have (3–12), *Character* how far they go, and *Random shape* rolls a new
-seed — the shape then morphs into the new one instead of snapping. Inspired by
-[blobmaker](https://www.blobmaker.app/); `border-radius` only has four corners and cannot
-go this far.
-
-The radii come from a sum of a few low-frequency waves rather than white noise, so bulges
-stay wide instead of spiking into single thorns, and the outline itself is a centripetal
-Catmull-Rom curve, which tolerates large radius jumps without overshooting or looping —
-plain uniform Catmull-Rom kinks at these amplitudes. Each shape is recentred on its
-centroid and refitted to the box, so an asymmetric silhouette still carries its face in
-the body.
-
-Every shape is reproducible from three numbers, so it can be written down and reused:
-*Blob, 7 points, character 65, seed 314* — and the filename carries them.
-
-The face colour is derived from the brand colour rather than chosen separately, so the
-character reads as one object instead of a face placed on a shape.
+seed — the shape then morphs into the new one instead of snapping. 
 
 ### Product states
 
 Idle, Hello, Thinking, Success, Oops and Attention — the moments a product actually needs
 an asset for: empty states, loading, confirmation, error, notice. Emoji-style emotions
 were deliberately dropped; they overlap and most of them are unusable for a brand.
+
+<img width="928" height="436" alt="Bildschirmfoto 2026-09-22 um 10 53 34" src="https://github.com/user-attachments/assets/a55e4d57-8eb2-43fe-9c80-5337207f0892" />
+<img width="1012" height="551" alt="Bildschirmfoto 2026-09-22 um 10 53 48" src="https://github.com/user-attachments/assets/a4d73896-76f6-4684-abd2-ef462085db6e" />
+
 
 ### Motion
 
