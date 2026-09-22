@@ -2,13 +2,6 @@
 
 A tiny character motion studio for expressive, living brand assets.
 
-**[Open the studio →](https://likeitdigital.github.io/moco/app.html)** · [Project page](https://likeitdigital.github.io/moco/)
-
-> **For the GitHub "About" field** (Settings → repo description, top right of the repo page):
-> *A browser-based character motion studio for living brand systems — organic shapes,
-> six states and eight motions, exported exactly as they look on screen.*
-> Website field: `https://likeitdigital.github.io/moco/`
-
 MOCO is an experimental, browser-based design tool for creating organic characters and
 bringing them to life through shape, expression and motion. Choose a silhouette, define
 its colour and state, arrange motions on a timeline, and export the result for use in
