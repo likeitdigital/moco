@@ -1,3 +1,4 @@
+
 # moco — character motion
 
 A tiny character motion studio for expressive, living brand assets.
@@ -8,7 +9,7 @@ its colour and state, arrange motions on a timeline, and export the result for u
 digital projects.
 
 ---
-
+<img width="2000" height="1403" alt="screenshot-desktop" src="https://github.com/user-attachments/assets/42eaf76a-7c0b-48f0-b96d-4390f8447d41" />
 ## Why MOCO?
 
 Brand assets don't have to be static.
